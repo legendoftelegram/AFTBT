@@ -4,12 +4,12 @@ class AtwFilt(object):
     
 Iam [{bot_name}](t.me/{bot_username}) 𝙾𝚛 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚌𝚊𝚕𝚕 𝚖𝚎 𝚊𝚜 [Mia Malkova inline Filter bot](t.me/{bot_username}) 
 
-𝙷𝚎𝚛𝚎 𝚈𝚘𝚞 𝙲𝚊𝚗 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 xxx 𝙼𝚘𝚟𝚒𝚎'𝚜, 𝙹𝚞𝚜𝚝 𝚂𝚎𝚗𝚝 [𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎](t.me/{bot_username})
-𝚆𝚒𝚝𝚑 𝙿𝚛𝚘𝚙𝚎𝚛 #𝙶𝚘𝚘𝚐𝚕𝚎 𝚂𝚙𝚎𝚕𝚕𝚒𝚗𝚐..!!
+𝙷𝚎𝚛𝚎 𝚈𝚘𝚞 𝙲𝚊𝚗 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 xxx 𝙼𝚘𝚟𝚒𝚎'𝚜/ᴠɪᴅᴇᴏs , 𝙹𝚞𝚜𝚝 𝚂𝚎𝚗𝚝 [𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎](t.me/{bot_username})
+𝚆𝚒𝚝𝚑 𝙿𝚛𝚘𝚙𝚎𝚛 #𝙶𝚘𝚘𝚐𝚕𝚎 𝚂𝚙𝚎𝚕𝚕𝚒𝚗𝚐..!! ᴄʟɪᴄᴋ sᴇᴀʀᴄʜ ʙᴜᴛᴛᴏɴ ғᴏʀ xxx ᴠɪᴅᴇᴏs
 
 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐃𝐞𝐭𝐚𝐢𝐥𝐬 𝐂𝐥𝐢𝐜𝐤 /help"""
 
-    HELP_MSG = """no one gonna help you"""
+    HELP_MSG = """ɴᴏ ᴏɴᴇ ɢᴏɴɴᴀ ʜᴇʟᴘ ʏᴏᴜ"""
 
     ABOUT_MSG = """
 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄
@@ -25,7 +25,6 @@ Iam [{bot_name}](t.me/{bot_username}) 𝙾𝚛 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚌�
 
 #FILE : <code>{file_name}</code> 
 #❤️Size : <i>{file_size}</i>
-#✅CAPTION: {file_caption}
     FILE_CAPTIONS = """ 
 <code>{title}</code> 
 Size : <b>{size}</b>
@@ -43,7 +42,7 @@ Couldn't Find {query}?  Please Click Your Request Movie Name"""
 ** 📁 Here is What I Found In My Database** **For Your Query : #{title}**"""
 
     GET_MOVIE_2 = """
-📽️ Requested Movie : {query}
+📽️ Requested xxx Movie : {query}
 
 👤 Requested By : {mention}
 
