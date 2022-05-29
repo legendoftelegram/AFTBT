@@ -51,7 +51,7 @@ async def group_filters(client, message):
 
             imdb=await get_poster(search)
             if imdb and imdb.get('poster'):
-                dell=await message.reply_photo(photo=imdb.get('poster'), caption=AtwFilt.GET_MOVIE_1.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), url=imdb['url']), reply_markup=InlineKeyboardMarkup(buttons))
+                dell=await message.reply_photo(photo=random.choice(BOT_PICS)), caption=AtwFilt.GET_MOVIE_1.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), url=imdb['url']), reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(600)
                 await dell.delete()
             elif imdb:
