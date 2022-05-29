@@ -14,10 +14,10 @@ Iam [{bot_name}](t.me/{bot_username}) 𝙾𝚛 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚌�
     ABOUT_MSG = """
 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄
 
-○ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : [Arno](t.me/DhamuDC4)
+○ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : [ᴀʀɴᴏ](t.me/DhamuDC4)
 ○ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : [𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟗.𝟏𝟎](https://www.python.org/)
 ○ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐀𝐬𝐲𝐧𝐜𝐢𝐨 𝟏.𝟒.𝟏𝟐](https://docs.pyrogram.org/)
-○ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : [cinemacollections](https://t.me/cinemacollections)
+○ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : [ᴄɪɴᴇᴍᴀᴄᴏʟʟᴇᴄᴛɪᴏɴs](https://t.me/cinemacollections)
 ○ 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞:[𝐌𝐎𝐍𝐆𝐎𝔻𝔹](https://mongodb.com)
 
 """
