@@ -24,9 +24,6 @@ async def group_filters(client, message):
                 reply = search.replace(" ", '+')  
                 reply_markup = InlineKeyboardMarkup([[
                  InlineKeyboardButton("🎗️ Google 🎗️", url=f"https://www.google.com/search?q={reply}")
-                 ],[
-                 InlineKeyboardButton("🔍IMDB", url=f"https://www.imdb.com/find?q={reply}"),
-                 InlineKeyboardButton("Wikipedia🔎", url=f"https://en.m.wikipedia.org/w/index.php?search={reply}")
                  ]]  
                 )    
                 atwfiltDl=await message.reply_text(
@@ -52,7 +49,7 @@ async def group_filters(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages"),]
             )
 
-            imdb=await get_poster(search)
+            #imdb=await get_poster(search)
             if imdb and imdb.get('poster'):
                 dell=await message.reply_photo(photo=imdb.get('poster'), caption=AtwFilt.GET_MOVIE_1.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), url=imdb['url']), reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(600)
@@ -77,9 +74,9 @@ async def group_filters(client, message):
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages"),]
         )
 
-        imdb=await get_poster(search)
+        #imdb=await get_poster(search)
         if imdb and imdb.get('poster'):
-            dell=await message.reply_photo(photo=imdb.get('poster'), caption=AtwFilt.GET_MOVIE_1.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), url=imdb['url']), reply_markup=InlineKeyboardMarkup(buttons))
+            dell=await message.reply_photo(photo=random.choice(BOT_PICS), caption=AtwFilt.GET_MOVIE_1.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), url=imdb['url']), reply_markup=InlineKeyboardMarkup(buttons))
             await asyncio.sleep(300)
             await dell.delete()        
         elif imdb:
