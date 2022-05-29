@@ -24,7 +24,7 @@ async def start_message(bot, message):
         await message.reply_photo(photo = choice(BOT_PICS), caption=AtwFilt.DEFAULT_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
     elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
-        FORCES=["https://telegra.ph/file/10e57b92fde7aa7b540cf.jpg"]
+        FORCES=["https://telegra.ph/file/6e843b6d9948547ac4ec6.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
          InlineKeyboardButton("Join To Use Me", url=invite_link.invite_link)
@@ -40,7 +40,7 @@ async def start_message(bot, message):
 @illuzX.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("source code", callback_data="SOURCE_CODE"),
+     InlineKeyboardButton("Home", callback_data="start"),
      InlineKeyboardButton("About 😎", callback_data="about")
      ]]
     await message.reply_photo(
